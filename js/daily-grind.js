@@ -146,7 +146,6 @@ break;
 
 }
 
-alert(today);
 console.log(coffee);
 
 document.getElementById("coffee-cup").innerHTML = coffeetemplate(coffee);
