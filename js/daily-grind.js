@@ -46,7 +46,16 @@ myDay = parseInt(myDay);//must change to integer for switch
 switch(myDay){
 
    case 0:
-       today = "Sunday";
+    today = "Sunday";
+      coffee = {
+        name: "Caramel Latte",
+        pic: "images/caramel-latte.jpg",
+        alt: "a pic of caramel latte",
+        color: "tan",
+        day: "sunday",
+        desc: 'I need you latte in my heart because Im cold'
+      }
+
    break;
 
    case 1:
@@ -61,10 +70,18 @@ switch(myDay){
         desc: 'For when I need a quick pick me up!'
       }; 
 
-break;
+    break;
 
    case 2:
-       today = "Tuesday";
+    today = "Tuesday";
+      coffee = {
+        name: "Drip",
+        pic: "images/drip.jpg",
+        alt: "a pic of drip",
+        color: "blue",
+        day: "tuesday",
+        desc: 'Take a dip in our drip'
+      };
    break;
 
    case 3:
@@ -78,6 +95,48 @@ break;
         day: "wednesday",
         desc: ' I like me some bubblr tea!'
       }; 
+
+break;
+
+case 4:
+  today = "thursday";
+
+    coffee = {
+      name: "Pumpkin Spice Latte",
+      pic: "images/pumpkin-spice-latte.jpg",
+      alt: "a pic of pumpkin spice latte",
+      color: "yellow",
+      day: "thursday",
+      desc: 'Smash a pumpkin, get pumpkin spice latte for free'
+    }; 
+
+break;
+
+case 5:
+  today = "friday";
+
+    coffee = {
+      name: "Mocha",
+      pic: "images/mocha.jpg",
+      alt: "a pic of mocha",
+      color: "white",
+      day: "friday",
+      desc: 'Come N get this mocha love'
+    }; 
+
+break;
+
+case 6:
+  today = "saturday";
+
+    coffee = {
+      name: "Frappaccino",
+      pic: "images/frappaccino.jpg",
+      alt: "a pic of frappacctino",
+      color: "purple",
+      day: "saturday",
+      desc: 'Come N get the frappacctino'
+    }; 
 
 break;
 
